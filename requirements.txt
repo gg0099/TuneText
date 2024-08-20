@@ -1,4 +1,5 @@
 av
+audiocraft
 einops
 flashy>=0.0.1
 hydra-core>=1.1
