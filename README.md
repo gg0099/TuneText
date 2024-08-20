@@ -23,21 +23,36 @@
 ## **Installation and Usage**
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/TuneText.git
+    git clone https://github.com/gg0099/TuneText.git
     cd TuneText
     ```
 
-2. **Install dependencies**:
+2. **Create a Virtual Environment**:
+    ```bash
+    python -m venv myenv
+    ```
+
+3. **Activate the Virtual Environment**:
+    - On Windows:
+      ```bash
+      myenv\Scripts\activate
+      ```
+    - On macOS/Linux:
+      ```bash
+      source myenv/bin/activate
+      ```
+
+4. **Install dependencies**:
     ```bash
     pip install -r requirements.txt
     ```
 
-3. **Run the app**:
+5. **Run the app**:
     ```bash
     streamlit run app.py
     ```
 
-4. **Access the app**: Open your browser and go to `http://localhost:8501` to use the app.
+6. **Access the app**: Open your browser and go to `http://localhost:8501` to use the app.
 
 ## **Contributing**
 Contributions are welcome! Please feel free to submit a Pull Request.
